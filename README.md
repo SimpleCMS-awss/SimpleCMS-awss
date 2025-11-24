@@ -1,16 +1,26 @@
-## Hi there 👋
+# SimpleCMS - Gestor de Contenidos para Pequeños Negocios
 
-<!--
-**SimpleCMS-awss/SimpleCMS-awss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Descripción
+Sistema de gestión de contenidos diseñado específicamente para pequeños negocios locales (restaurantes, tiendas, servicios) que necesitan actualizar su contenido web fácilmente.
 
-Here are some ideas to get you started:
+## Características Principales
+- ✅ Verificación de email segura
+- 🏪 Gestión de contenido por tipo de negocio
+- 📱 Interfaz responsive y simple
+- 🔐 Autenticación JWT
+- 📧 Sistema de email transaccional
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Stack Tecnológico
+- **Backend**: Node.js + Express
+- **Base de datos**: MongoDB
+- **Email**: MailerSend
+- **Autenticación**: JWT + bcrypt
+
+## Instalación
+1. Clonar repositorio
+2. `npm install`
+3. Configurar variables de entorno en `.env`
+4. `npm run dev`
+
+## Uso previsto
+Pequeños negocios podrán gestionar sus menús, productos y información de contacto sin conocimientos técnicos.
